@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student service request portal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Service Request Portal</h1>
+        <p>Submit your university service requests quickly and easily online.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <main>
+             <section class="services-description">
+                <h2>Available Services</h2>
+                <p>Our student affairs department offers the following services:</p>
+            <ul>
+                <li><strong>Transcript Request:</strong> Official and unofficial academic transcripts.</li>
+                <li><strong>ID Card Issues:</strong> Lost, damaged, or new student ID cards.</li>
+                <li><strong>General Inquiry:</strong> Any other questions or requests.</li>
+            </ul>
+            <p>Fill out the form below and our team will respond within 2–3 business days.</p>
+        </section>
+            
+            
+            <section class="form-section">
+            <h2>Submit a Request</h2>
+            <form action="#" method="post">
+ 
+                <div class="form-group">
+                    <label for="Student-name">Student Name <span class="required">*</span></label>
+                    <input type="text" id="Student-name" name="student_name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Student-id">Student ID <span class="required">*</span></label>
+                    <input type="text" id="Student-id" name="student_id" placeholder="Max 10 characters" maxlength="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="service-type">Service Type</label>
+                    <select id="service-type" name="service_type">
+                        <option value=""disabled selected>-- select a serivce --</option>
+                        <option value="transcript">Transcript Request</option>
+                        <option value="id-card">ID Card Issues</option>
+                        <option value="general">General Inquiry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label> Urgency Level</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="urgency" value="low"> Low
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="urgency" value="medium"> Medium
+                            </label>
+                        
+                        <label class="radio-label">
+                            <input type="radio" name="urgency" value="high"> High
+                            </label>
+                    
+                </div>
+                </div>
+                <div class="form-group">
+                    <label for="details">Additional details</label>
+                    <textarea id="details" name="details" rows="5" placeholder="describe your details here.."></textarea>
+                </div>
+                <button type="submit">Submit Request</button>
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 University Student Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>

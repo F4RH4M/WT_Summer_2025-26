@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'times new roman', serif;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header*/
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #f0f0f0;
+}
+
+/* Navigation */
+
+nav{
+    background-color: #333;
+    text-align: center ;
+    padding: 12px 0;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    background-color: #4CAF50;
+    text-decoration: underline;
+}
+
+main{
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/*services section*/
+
+.services-description{
+    background-color: #e0f7fa;
+    border : 1px solid #b2ebf2;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 40px;
+}
+
+.services-description h2{
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #00796b;
+}
+
+.services-description p{
+    font-size: 1.1em;
+    color: #004d40;
+}
+
+.services-description ul {
+    margin: 10px p 15px 20px;
+    color: #555;
+}
+.services-descriptionul li {
+    margin-bottom: 6px;
+}
+ /*Form sections*/
+
+ .form-section {
+    background-color: #ffffff;
+    border: 1px solid #dce3ed;
+    border-radius: 6px;
+    padding: 30px 35px;
+ }
+
+ .form_section h2{
+    color: #1a3c6e;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    border-bottom: 2px solid #dce3ed;
+    padding-bottom: 10px;
+ }
+
+ /*Form groups*/
+
+ .form-group {
+    margin-bottom: 20px;
+ }
+
+ .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+    font-size: 0.95rem;
+ }
+
+ .required {
+    color: #cc2200;
+
+ }
+
+ .form-group input[type="text"],
+ .form-group input[type="email"],
+ .form-group select,
+ .form-group textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #bbc9dc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: #eee;
+    background-color: #fafcff;
+    transition: border-color 0.3 ease;
+    outline: none;
+ }
+
+ .form-group input[type="text"]:focus,
+ .form-group input[type="email"]:focus,
+ .form-group select:focus,
+ .form-group textarea:focus {
+    border-color: #2c5499;
+    background-color: #ffffff;
+ }
+
+ .form-group textarea {
+    resize: vertical;
+ }
+
+ /*radio buttons*/
+ .radio-group {
+    display: flex;
+    gap: 25px;
+    margin-top: 6px;
+}
+
+.radio-label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    color: #444;
+}
+ 
+.radio-label input[type="radio"] {
+    accent-color: #2c5499;
+    width: 16px;
+    height: 16px;
+}
+
+/*submit button */
+
+button[type="submit"]
+{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #2c5499;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    letter-spacing: 0.4px;
+}
+
+button [type = "submit"]:hover
+{
+    background-color: #1a3c6e;
+}
+
+/*footer*/
+footer{
+    background-color: #1a3c6e;
+    color: #ccd9f0;
+    text-align: center;
+    padding: 18px 20px ;
+    font-size: 0.88rem;
+    margin-top: 50px;
+}
